@@ -1,0 +1,10 @@
+bower_components
+dist
+node_modules/
+typings/
+
+# dotenv environment variables file
+# .env
+# .env.test
+.DS_Store
+.env.*
