@@ -1,6 +1,7 @@
 import React from 'react';
 import {loginService} from '@/service/login'
 import { useHistory } from 'react-router';
+import { Button } from 'antd';
 
 export default function Login (): React.ReactElement {
   const history = useHistory();
@@ -15,6 +16,6 @@ export default function Login (): React.ReactElement {
   }
   return <div>
     登录页面
-    <button onClick={onLogin}>登录</button>
+    <Button onClick={onLogin} type='primary'>登录</Button>
   </div>;
 }
